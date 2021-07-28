@@ -58,5 +58,20 @@
             <source src="./videos/ejemplo.m4v#t=10,12"> <!--con esto podemos poner varios formatos y que el navegador tome la decision-->
         </video>
         <p>Creado con amor</p>
+        <h2>Aqui inicia el formulario</h2>
+        <form action=""> <!--action se refiere a la coneción con la base de datos-->
+            <label for="nombre"> <!--creamos un label para colocar un input dentro-->
+                <span>Cual es tu nombre: </span> <!--span es un contenedor en linea, puede llevar texto-->
+                <input type="text" id="nombre" placeholder="Nombre"> <!--el input nos deja poner el tipo de entrada, y lleva un id que es igual al for de label-->
+            </label>
+            <label for="inicio-platzi">
+                <span>Cuando iniciaste en platzi: </span>
+                <input type="date" id="inicio-platzi">
+            </label>
+            <label for="horario">
+                <span>En que horario estudias: </span>
+                <input type="time" id="horario">
+            </label>
+        </form>
     </body>
 </html>
