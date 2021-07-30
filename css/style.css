@@ -1,11 +1,19 @@
 * {
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
 }
 
 /* etiqueta */
 p {
     color: blueviolet;
     font-size: 30px;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:visited:hover {
+    color:lightsalmon;
 }
 
 img {
@@ -29,4 +37,35 @@ ul, li {
 #titulo2 {
     color: darkorange;
     font-size: 28px;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
+    border-radius: 3px;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: aqua;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+.main-nav__item a::after {
+    content: " | ";
 }
