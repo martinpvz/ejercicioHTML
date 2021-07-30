@@ -1,0 +1,16 @@
+/* etiqueta */
+p {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+/* class */
+.titulo {
+    color: darkcyan;
+}
+
+/* ID */
+#titulo2 {
+    color: darkorange;
+    font-size: 28px;
+}
